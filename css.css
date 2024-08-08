@@ -1,0 +1,141 @@
+/* Cabeçalho */
+body{
+    margin: 0px;
+
+}
+
+header{
+    border-bottom: 2px solid;
+    background-color: black;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cordas{
+    background-color: black;
+    height: 50px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.cordas:hover{
+    background-color: rgb(80, 79, 79);
+
+}
+.acessorio{
+    background-color: black;
+    height: 50px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-right: 10px;
+
+}
+.acessorio:hover{
+    background-color: rgb(80, 79, 79);
+
+}
+.contato{
+    background-color: black;
+    height: 50px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-right: 10px;
+
+}
+.contato:hover{
+    background-color: rgb(80, 79, 79);
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* Inicio */
+.logo{
+    height: 90px;
+    display: flex;
+    background-color: white;
+    border-radius: 100px;
+    margin-left: 100px;
+}
+
+.imagen-guitarra{
+    width: 370px;
+    height: 400px;
+}
+
+.loja{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 530px;
+    align-items: center;
+}
+
+.guitarra{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+    border: 2px solid;
+    margin-left: 5px;
+}
+.guitarra:hover{
+    height: 510px;
+    width: 405px;
+}
+button{
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.preco{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 350px;
+
+}
+
+
+
+
+
